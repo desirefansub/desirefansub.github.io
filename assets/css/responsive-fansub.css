@@ -43,6 +43,49 @@
     }
 
 
+    .site-footer {
+        padding-top: 10px;
+        margin: 10px;
+
+    }
+
+
+    .rodape {
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+        padding-bottom: 20px;
+        line-height: 24px !important;
+    }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+
+    .social-footer {
+        cursor: pointer;
+
+    }
+
+    .social-footer:hover {
+        color: #00B996;
+    }
+
+
+    hr.rounded {
+        margin-top: 60px;
+        width: 99%;
+        border: 2px solid #00B996;
+        border-radius: 5px;
+    }
+
+    .footer-copy {
+        font-size: 1.8vw;
+        text-align: center !important;
+    }
+
     .footer-skin {
         margin: 0;
         font-family: 'Zen Kurenaido', sans-serif;
@@ -50,6 +93,7 @@
         font-size: 0.8vw !important;
     }
 
+    =======
 }
 
 
@@ -58,7 +102,7 @@
 /* Medium>=992px or less */
 
 @media screen and (max-width: 992px) {
-    
+
 
     .flex-container {
         flex-wrap: wrap;
@@ -107,9 +151,46 @@
     }
 
 
+    .site-footer {
+        padding-top: 10px;
+        margin: 10px;
+
+    }
+
+
+    .rodape {
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+        padding-bottom: 20px;
+        line-height: 24px !important;
+    }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+
+    .social-footer {
+        cursor: pointer;
+
+    }
+
+    .social-footer:hover {
+        color: #00B996;
+    }
+
+
+    hr.rounded {
+        margin-top: 60px;
+        width: 99%;
+        border: 2px solid #00B996;
+        border-radius: 5px;
+    }
 
     .footer-copy {
-        font-size: 2.5vw;
+        font-size: 1.8vw;
         text-align: center !important;
     }
 
@@ -117,9 +198,10 @@
         margin: 0;
         font-family: 'Zen Kurenaido', sans-serif;
         font-weight: 700;
-        font-size: 1vw !important;
+        font-size: 0.8vw !important;
     }
 
+    =======
 }
 
 
@@ -196,23 +278,57 @@
         margin-top: -30px;
     }
 
+    .site-footer {
+        padding-top: 10px;
+        margin: 10px;
+
+    }
+
+
+    .rodape {
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+        padding-bottom: 20px;
+        line-height: 24px !important;
+    }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+
+    .social-footer {
+        cursor: pointer;
+
+    }
+
+    .social-footer:hover {
+        color: #00B996;
+    }
+
+
+    hr.rounded {
+        margin-top: 60px;
+        width: 99%;
+        border: 2px solid #00B996;
+        border-radius: 5px;
+    }
+
     .footer-copy {
-        font-size: 13px;
+        font-size: 1.8vw;
         text-align: center !important;
     }
 
-    .projects {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        margin-top: 20px;
-        background-color: #F5F5F500;
-        color: #F5F5F5;
-        border-radius: 20px;
-        text-decoration: none;
-
+    .footer-skin {
+        margin: 0;
+        font-family: 'Zen Kurenaido', sans-serif;
+        font-weight: 700;
+        font-size: 0.8vw !important;
     }
 
-    .rifa {
+    =======.rifa {
         font-family: 'Zen Kurenaido', sans-serif;
         font-size: 2.8vw !important;
         font-weight: 700;
@@ -313,13 +429,57 @@
         margin-top: -30px;
     }
 
+    .site-footer {
+        padding-top: 10px;
+        margin: 10px;
+
+    }
+
+
+    .rodape {
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+        padding-bottom: 20px;
+        line-height: 24px !important;
+    }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+
+    .social-footer {
+        cursor: pointer;
+
+    }
+
+    .social-footer:hover {
+        color: #00B996;
+    }
+
+
+    hr.rounded {
+        margin-top: 60px;
+        width: 99%;
+        border: 2px solid #00B996;
+        border-radius: 5px;
+    }
 
     .footer-copy {
-        font-size: 2.5vw;
+        font-size: 1.8vw;
         text-align: center !important;
     }
 
-    .projects {
+    .footer-skin {
+        margin: 0;
+        font-family: 'Zen Kurenaido', sans-serif;
+        font-weight: 700;
+        font-size: 0.8vw !important;
+    }
+
+    =======.projects {
         padding-top: 20px;
         padding-bottom: 10px;
         margin-top: 20px;

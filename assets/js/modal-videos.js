@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
     document.getElementsByClassName("tablink1")[0].click();
 
@@ -57,3 +58,4 @@ function openPrograma4(evt, programa4Name) {
 
 
 
+=======

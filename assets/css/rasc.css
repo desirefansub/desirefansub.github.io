@@ -1,0 +1,63 @@
+.ult-mv p {
+    color: #001029;
+    font-weight: 700px;
+    font-family: 'Dongle', sans-serif;
+    letter-spacing: 1px;
+    text-justify: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.ult-mv-flow {
+    display: grid;
+    grid-auto-flow: row;
+    list-style: circle;
+    line-height: 3px;
+}
+
+.ult-mv-flow li {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+
+.ult-mv-flow p {
+    font-weight: 300;
+    font-size: 28px;
+    text-align: left;
+    line-height: 10px;
+}
+
+.ult-mv-flow p:hover {
+    color: #1D5D5C;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.ult-mv {
+    background-color: none;
+    padding-top: 10px;
+    width: 910px;
+    flex: 50%;
+    background-color: #F5F5F5;
+    color: #001029;
+    border-radius: 20px;
+}
+
+.metas {
+    background-color: none;
+    padding-top: 10px;
+    width: 300px;
+    flex: 50%;
+    background-color: #F5F5F5;
+    color: #001029;
+    border-radius: 20px;
+}

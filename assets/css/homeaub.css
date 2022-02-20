@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Oswald:wght@200;300;400&family=Zen+Kurenaido&display=swap');
+
+@font-face {
+    font-family: dontstop;
+    src: url("/assets/fonts/good\ times\ rg.otf");
+}
+
+/*!
+ * Copyright 2022.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    clear: both;
+    background: rgb(0, 31, 82);
+    background: -moz-linear-gradient(290deg, rgba(0, 31, 82, 1) 34%, rgba(0, 16, 41, 1) 69%);
+    background: -webkit-linear-gradient(290deg, rgba(0, 31, 82, 1) 34%, rgba(0, 16, 41, 1) 69%);
+    background: linear-gradient(290deg, rgba(0, 31, 82, 1) 34%, rgba(0, 16, 41, 1) 69%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001f52", endColorstr="#001029", GradientType=1);
+    line-height: 1;
+    color: #D6D4D5;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+a,
+p {
+    font-size: 32px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.fa-icon {
+    color: #7C85A0;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 25px !important;
+}
+
+.fa-icon:hover {
+    color: #D6D4D5
+}
+
+.fa-icon .fa-icon-2x {
+    width: 30px;
+    height: 30px;
+}
+
+.borderline {
+    border-color: #2C8C8A;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+
+
+
+/*! logo and nav */
+
+
+/*! main */
+
+.logo-site {
+    color: #F5F5F5;
+}
+
+
+hr.nav-rounded {
+    margin-top: -70px;
+    margin-bottom: 60px;
+    width: 99%;
+    border: 2px solid #2C8C8A;
+    border-radius: 5px;
+}
+
+
+.main-container {
+    margin: 20px;
+    height: auto;
+}
+
+
+
+.flex-container {
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.column-one {
+    display: flex;
+    column-gap: 40px;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.att-column {
+    background-color: none;
+    padding: 10px;
+    flex: 50%;
+    background-color: #F5F5F500;
+    color: #F5F5F5;
+    border-radius: 20px;
+}
+
+
+.att-container {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    row-gap: 70px;
+    column-gap: 20px;
+    flex-flow: row;
+    align-items: center !important;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.att-text {
+    padding-top: 20px;
+    justify-content: center !important;
+    font-size: 2.4vw !important;
+    font-family: 'Zen Kurenaido', sans-serif !important;
+    line-height: 38px;
+}
+
+
+table,
+th,
+td {
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+table {
+    width: 100%;
+    justify-content: center;
+    border-spacing: 4px;
+    background-color: #1D5D5C22;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #1D5D5C44;
+}
+
+
+
+/*! mvs */
+
+.column-two {
+    display: flex;
+    column-gap: 40px;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.ult-mv {
+    background-color: none;
+    background-image: url(/assets/imgs/bolt-solid.svg);
+    background-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    flex: 50%;
+    background-color: #F5F5F500;
+    color: #F5F5F5;
+    border-radius: 20px;
+}
+
+
+.ult-mv h2 {
+    line-height: 40px;
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+
+.ult-mv a {
+    margin: 6px;
+    letter-spacing: 4px;
+    font-size: 40px !important;
+}
+
+
+.listen-now {
+    justify-content: center;
+}
+
+.stream {
+    margin-bottom: 30px;
+    font-size: 25px !important;
+}
+
+
+
+.metas-streaming {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.metas-streaming a p {
+    font-size: 30px;
+}
+
+
+.shadows {
+    font-size: 40px;
+    text-shadow: -2px 0 #2C8C8A, 0 1px #2C8C8A, 1px 0 #1D5D5C, 0 -2px #2C8C8A;
+    text-decoration: none;
+    color: #D0F0F0;
+}
+
+
+
+/*! boys */
+
+.img-thumb {
+    max-width: 50%;
+    margin-right: 340px;
+}
+
+
+.grid-boys {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 50px !important;
+    margin-top: -112px;
+    align-items: center;
+    justify-content: center !important;
+    grid-template-columns: repeat(4, 200px);
+    grid-column-gap: 100px;
+}
+
+.the-boys {
+    min-width: fit-content;
+    display: block;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    background-color: #F5F5F500;
+    color: #F5F5F5;
+    border-radius: 20px;
+    height: 100%;
+
+}
+
+
+/*! boys */
+
+
+.projects {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: #F5F5F500;
+    color: #F5F5F5;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+.rifa {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 2vw !important;
+    font-weight: 700;
+    column-gap: 30px;
+    line-height: 42px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+
+.glow {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #001F52;
+    text-align: center;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #2C8C8A, 0 0 5px #2C8C8A, 0 0 12px #2C8C8A, 0 0 15px #2C8C8A, 0 0 15px #2C8C8A;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 7px #1D5D5C, 0 0 10px #1D5D5C, 0 0 25px #1D5D5C, 0 0 15px #001F52, 0 0 20px #001F52, 0 0 40px #001F52;
+    }
+}
+
+
+.site-footer {
+    padding-top: 10px;
+    margin: 10px;
+
+}
+
+
+.rodape {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    padding-bottom: 20px;
+    line-height: 24px !important;
+}
+
+.contact {
+    padding-bottom: 0;
+}
+
+
+.social-footer {
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.social-footer:hover {
+    color: #2C8C8A;
+}
+
+
+hr.rounded {
+    margin-top: 60px;
+    width: 99%;
+    border: 2px solid #2C8C8A;
+    border-radius: 5px;
+}
+
+.footer-copy {
+    font-size: 1.8vw;
+    text-align: center !important;
+}
+
+.footer-skin {
+    margin: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 700;
+    font-size: 0.8vw !important;
+}

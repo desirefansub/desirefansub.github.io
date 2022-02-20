@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Oswald:wght@200;300;400&family=Zen+Kurenaido&display=swap');
+
+@font-face {
+    font-family: dontstop;
+    src: url("/assets/fonts/good\ times\ rg.otf");
+}
+
+/*!
+ * Copyright 2022.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    clear: both;
+    background: rgb(0, 31, 82);
+    background: -moz-linear-gradient(290deg, rgba(0, 31, 82, 1) 34%, rgba(0, 16, 41, 1) 69%);
+    background: -webkit-linear-gradient(290deg, rgba(0, 31, 82, 1) 34%, rgba(0, 16, 41, 1) 69%);
+    background: linear-gradient(290deg, rgba(0, 31, 82, 1) 34%, rgba(0, 16, 41, 1) 69%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001f52", endColorstr="#001029", GradientType=1);
+    line-height: 1;
+    color: #D6D4D5;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+a,
+p {
+    font-size: 32px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.fa-icon {
+    color: #7C85A0;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 25px !important;
+}
+
+.fa-icon:hover {
+    color: #D6D4D5
+}
+
+.fa-icon .fa-icon-2x {
+    width: 30px;
+    height: 30px;
+}
+
+.borderline {
+    border-color: #2C8C8A;
+    border-style: solid;
+    border-width: 4px;
+}
+
+
+
+
+
+/*! logo and nav */
+
+
+/*! main */
+
+.logo-site {
+    color: #F5F5F5;
+}
+
+
+hr.nav-rounded {
+    margin-top: -70px;
+    margin-bottom: 60px;
+    width: 99%;
+    border: 2px solid #2C8C8A;
+    border-radius: 5px;
+}
+
+
+
+.main-container {
+    margin: 20px 20px;
+    height: auto;
+}
+
+
+
+/*! apps */
+
+.streaming-mv {
+    display: flex;
+    grid-auto-flow: column;
+    max-width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    place-content: center !important;
+    margin-right: 20px !important;
+    height: 380px;
+}
+
+
+
+.apps {
+    font-size: 5vw !important;
+    
+}
+
+.img {
+    max-width: 95% !important;
+    float: center;
+
+}
+
+
+.yt {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #ff000a !important;
+    -webkit-text-stroke-width: 1px !important;
+    text-decoration: none !important;
+
+}
+
+.yt:hover {
+    color: #ff000a;
+}
+
+
+
+.spot {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #009933 !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.spot:hover {
+    color: #009933;
+}
+
+
+
+.apmusic {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #cc0000 !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.apmusic:hover {
+    color: #cc0000;
+}
+
+
+.bug {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #ff3333 !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.bug:hover {
+    color: #ff3333;
+}
+
+
+.deez {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #f55a00 !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.deez:hover {
+    color: #f55a00;
+}
+
+
+.ytmusic {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #cc0000 !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.ytmusic:hover {
+    color: #cc0000;
+}
+
+
+.tid {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #f6f9fd !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.tid:hover {
+    color: #f6f9fd;
+}
+
+
+.itun {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #6b6b6b !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.itun:hover {
+    color: #6b6b6b;
+}
+
+
+.flor {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #fdf8ab !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.flor:hover {
+    color: #fdf8ab;
+}
+
+.genio {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #4b9cdf !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.genio:hover {
+    color: #4b9cdf;
+}
+
+
+.melao {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #25da94 !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.melao:hover {
+    color: #25da94;
+}
+
+.vibe {
+    color: #ffffff00;
+    display: inline !important;
+    margin: 0px;
+    -webkit-text-stroke: #42cc60 !important;
+    -webkit-text-stroke-width: 1.5px !important;
+
+}
+
+.vibe:hover {
+    color: #42cc60;
+}
+
+
+
+
+
+
+
+
+/*    [ Keano  ( 2022.02.04 ) ]    */
+
+
+
+
+
+
+
+/*! boys */
+
+
+
+/*! spotify */
+
+hr.rounded {
+    margin-top: 80px;
+    width: 99%;
+    border: 2px solid #2C8C8A;
+    border-radius: 5px;
+}
+
+
+table,
+td {
+    font-size: 17px;
+    border-radius: 10px;
+    width: 50%;
+
+}
+
+th {
+    font-size: 20px;
+}
+
+table {
+
+    justify-content: center;
+    border-spacing: 4px;
+    background-color: #1D5D5C22;
+    height: 300px;
+    width: 100%;
+}
+
+
+tr:nth-child(even) {
+    background-color: #1D5D5C44;
+}
+
+
+.colunas-spotify {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule: 1px solid lightblue;
+}
+
+/*! RODAPÉ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-footer {
+    padding-top: 10px;
+    margin: 10px;
+
+}
+
+
+.rodape {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    padding-bottom: 20px;
+    line-height: 24px !important;
+}
+
+.contact {
+    padding-bottom: 0;
+}
+
+
+.social-footer {
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.social-footer:hover {
+    color: #2C8C8A;
+}
+
+
+
+
+.footer-copy {
+    font-size: 1.8vw;
+    text-align: center !important;
+}
+
+.footer-skin {
+    margin: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 700;
+    font-size: 0.8vw !important;
+}

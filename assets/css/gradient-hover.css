@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Oswald:wght@200;300;400&family=Zen+Kurenaido&display=swap');
+
+@font-face {
+    font-family: dontstop;
+    src: url("/assets/fonts/good\ times\ rg.otf");
+}
+
+/*!
+ * Copyright 2022.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+
+
+
+
+
+
+
+img {
+    cursor: pointer;
+}
+
+
+.gradient-icone {
+    padding: 5px;
+    border-radius: 20%;
+}
+
+/* icone individual */
+
+.grad-hj {
+    width: 200px;
+    background-image: url("./assets/imgs/2.png");
+}
+
+
+.grad-hj:after {
+    background: #660708;
+    background: linear-gradient(120deg, #660708 0%, #EC6F71 70%, #E5383c 100%);
+    background-size: 200% 200%;
+    -webkit-animation: HoverIcone 20s linear infinite;
+    -moz-animation: HoverIcone 20s linear infinite;
+    -o-animation: HoverIcone 20s linear infinite;
+    animation: HoverIcone 20s linear infinite;
+}
+
+
+.gradient-menu {
+
+    padding: 5px;
+    border-radius: 20%;
+
+}
+
+
+
+.grad-menu {
+    width: 300px;
+    height: 300px;
+    color: #000 !important;
+}
+
+
+.grad-menu:hover {
+    background: #8A9B6D;
+    background: linear-gradient(120deg, #8A9B6D 30%, #FFBA3B 50%, #9DBEAE 100%);
+    background-size: 200% 200%;
+    -webkit-animation: HoverIcone 20s linear infinite;
+    -moz-animation: HoverIcone 20s linear infinite;
+    -o-animation: HoverIcone 20s linear infinite;
+    animation: HoverIcone 20s linear infinite;
+}
+
+/* icone individual */
+
+
+
+
+
+@-webkit-keyframes HoverIcone {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 600% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@-moz-keyframes HoverIcone {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 600% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}

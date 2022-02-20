@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Oswald:wght@200;300;400&family=Zen+Kurenaido&display=swap');
+
+@font-face {
+    font-family: dontstop;
+    src: url("/assets/fonts/good\ times\ rg.otf");
+}
+
+/*!
+ * Copyright 2022.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    clear: both;
+    background: linear-gradient(to top, #0B090A, #161A1D), url("/assets/imgs/thunder-background.png");
+
+    line-height: 1;
+    color: #D6D4D5;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+
+a,
+p {
+    font-size: 32px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.fa-icon {
+    color: #7C85A0;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 25px !important;
+}
+
+.fa-icon:hover {
+    color: #8A9B6D
+}
+
+.fa-icon .fa-house .fa-icon-2x {
+    width: 30px;
+    height: 30px;
+}
+
+.borderline {
+    border-color: #000;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.logo-site {
+    color: #9DBEAE;
+}
+
+
+hr.nav-rounded {
+    margin-top: -70px;
+    margin-bottom: 60px;
+    width: 99%;
+    border: 2px solid #9DBEAE;
+    border-radius: 5px;
+}
+
+
+
+/*! logo and nav */
+
+
+/*! main */
+
+
+
+
+.main-container {
+    margin: 20px;
+    height: auto;
+}
+
+
+
+.flex-container {
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.column-one {
+    display: flex;
+    column-gap: 40px;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.att-column {
+    background-color: none;
+    padding: 10px;
+    flex: 50%;
+    background-color: #F5F5F500;
+    color: #F5F5F5;
+    border-radius: 10px;
+}
+
+
+
+.att-text {
+    padding-top: 20px;
+    justify-content: center !important;
+    font-size: 2.4vw !important;
+    font-family: 'Zen Kurenaido', sans-serif !important;
+    line-height: 38px;
+}
+
+.ep {
+    content: ''
+}
+
+.ep:hover {
+    color: #FFEAC2
+}
+
+table,
+th,
+td {
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+table {
+    width: 100%;
+    justify-content: center;
+    border-spacing: 4px;
+    background-color: #9DBEAE;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #8A9B6D;
+}
+
+
+
+/*! mvs */
+
+.column-two {
+    display: flex;
+    column-gap: 40px;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+
+
+/*! boys */
+
+.the-boys {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    color: #F5F5F5;
+    border-radius: 10px;
+    height: auto;
+    justify-content: center
+}
+
+.videos-trad {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: row;
+    justify-content: center;
+}
+
+
+.videos-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: row;
+    justify-content: center;
+}
+
+
+
+
+
+/*! boys */
+
+
+.site-footer {
+    padding-top: 10px;
+    margin: 10px;
+
+}
+
+
+.rodape {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    padding-bottom: 20px;
+    line-height: 24px !important;
+}
+
+.contact {
+    padding-bottom: 0;
+}
+
+
+.social-footer {
+    color: ;
+    cursor: pointer;
+
+}
+
+.social-footer:hover {
+    color: #FFBA3B;
+}
+
+
+hr.rounded {
+    margin-top: 60px;
+    width: 99%;
+    border: 2px solid #9DBEAE;
+    border-radius: 5px;
+}
+
+.footer-copy {
+    font-size: 1.8vw;
+    text-align: center !important;
+}
+
+.footer-skin {
+    margin: 0;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 700;
+    font-size: 0.8vw !important;
+}

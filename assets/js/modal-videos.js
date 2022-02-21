@@ -195,7 +195,7 @@ function openPrograma12(evt, programa12Name) {
   evt.currentTarget.classList.add("w3-light-grey");
 }
 
-
+-------------------------
 document.getElementsByClassName("tablink13")[0].click();
 
 function openPrograma13(evt, programa13Name) {
@@ -248,22 +248,6 @@ function openPrograma15(evt, programa15Name) {
 
 
 
-
-document.getElementsByClassName("tablink5")[0].click();
-
-function openPrograma5(evt, programa5Name) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("programa5");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink5");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].classList.remove("w3-light-grey");
-  }
-  document.getElementById(programa5Name).style.display = "block";
-  evt.currentTarget.classList.add("w3-light-grey");
-}
 
 
 
